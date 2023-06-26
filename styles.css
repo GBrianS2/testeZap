@@ -4,14 +4,26 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(iphone.jpg);
+    background-size: cover;
+
+}
+
+#cabecalho {
+    height: 25vh;
+    background-color: rgba(0, 0, 0, 0.938);
+    box-shadow: 3px 3px 30px rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.479);
+}
 
 #caixa {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.74);
 }
 
 #link {
@@ -35,4 +47,19 @@
 #link:hover {
     background-color: green;
     font-size: 23px;
+}
+
+#rodape {
+    height: 20vh;
+    background-color: rgb(66, 63, 63);
+    border-top: 5px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto1Rodape {
+    font-family: sans-serif;
+    color:white;
+    font-size: 40px;
 }
