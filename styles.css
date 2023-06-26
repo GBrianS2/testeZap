@@ -15,8 +15,8 @@
 }
 
 #link {
-    height: 50px;
-    width: 150px;
+    height: 200px;
+    width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
